@@ -4,7 +4,8 @@
   "description": "- Authentication.\r - Express Middleware.\r - JSON Web Tokens (JWTs).\r - Hashing Passwords.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/bharti3bk/webauth-iii-challenge/issues"
   },
-  "homepage": "https://github.com/bharti3bk/webauth-iii-challenge#readme"
+  "homepage": "https://github.com/bharti3bk/webauth-iii-challenge#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-session-knex": "^1.4.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "helmet": "^3.21.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.4",
+    "nodemon": "^1.19.2",
+    "sqlite": "^3.0.3"
+  }
 }
